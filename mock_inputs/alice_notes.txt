@@ -1,0 +1,7 @@
+Recruiter Notes on Candidate Alice Smith
+Email: alice.smith@example.com
+Phone: +1 (650) 555-0100
+Company: Google
+Title: Tech Lead
+Skills: Python, Django, React, Go
+Experience: 8 years

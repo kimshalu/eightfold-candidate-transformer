@@ -1,0 +1,52 @@
+[
+  {
+    "full_name": "Alice Smith",
+    "primary_email": "alice.smith@example.com",
+    "phone": "+16505550100",
+    "skills": [
+      "python",
+      "django",
+      "react",
+      "go",
+      "javascript",
+      "typescript"
+    ],
+    "overall_confidence": 0.816
+  },
+  {
+    "full_name": "Charlie Brown",
+    "primary_email": "charlie.b2@example.com",
+    "phone": "+16505559999",
+    "skills": [
+      "product strategy",
+      "agile"
+    ],
+    "overall_confidence": 0.85
+  },
+  {
+    "full_name": "David Miller",
+    "primary_email": "david.miller@example.com",
+    "phone": "+14155550199",
+    "skills": [
+      "java",
+      "spring boot",
+      "aws",
+      "kubernetes"
+    ],
+    "overall_confidence": 0.358
+  },
+  {
+    "full_name": "Bob Johnson",
+    "primary_email": "bob.johnson@example.com",
+    "phone": null,
+    "skills": [],
+    "overall_confidence": 0.9
+  },
+  {
+    "full_name": "Charlie Brown",
+    "primary_email": "charlie.b1@example.com",
+    "phone": "+16505550101",
+    "skills": [],
+    "overall_confidence": 0.9
+  }
+]

@@ -1,0 +1,7 @@
+Notes on David Miller
+Email: david.miller@example.com
+Phone: +1 415 555 0199
+Company: Netflix
+Title: Engineering Manager
+Skills: Java, Spring Boot, AWS, Kubernetes
+Experience: 10 years

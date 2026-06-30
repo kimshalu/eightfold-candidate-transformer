@@ -1,0 +1,55 @@
+[
+  {
+    "ats_id": "ats_alice",
+    "candidate_name": "Alice Smith",
+    "email_address": "alice.smith@example.com",
+    "telephone": "+1-650-555-0100",
+    "company_name": "Google",
+    "job_title": "Staff Software Engineer",
+    "location": {
+      "city": "Mountain View",
+      "region": "CA",
+      "country": "United States"
+    },
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python"
+    ],
+    "years_experience": 7.0,
+    "experience": [
+      {
+        "company": "Google",
+        "title": "Staff Software Engineer",
+        "start": "2020-01",
+        "end": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": "2018"
+      }
+    ]
+  },
+  {
+    "ats_id": "ats_charlie2",
+    "candidate_name": "Charlie Brown",
+    "email_address": "charlie.b2@example.com",
+    "telephone": "+1-650-555-9999",
+    "company_name": "Apple",
+    "job_title": "Product Manager",
+    "location": {
+      "city": "Cupertino",
+      "region": "CA",
+      "country": "US"
+    },
+    "skills": [
+      "Product Strategy",
+      "Agile"
+    ],
+    "years_experience": 5.0
+  }
+]

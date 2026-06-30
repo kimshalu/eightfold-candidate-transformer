@@ -1,0 +1,1075 @@
+[
+  {
+    "candidate_id": "cand_49fece470b8d",
+    "full_name": "Alice Smith",
+    "emails": [
+      "alice.smith@example.com"
+    ],
+    "phones": [
+      "+16505550100"
+    ],
+    "location": {
+      "city": "Mountain View",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 6.0,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.9,
+        "sources": [
+          "alice_notes.txt",
+          "ats_export.json_ats_ats_alice"
+        ]
+      },
+      {
+        "name": "django",
+        "confidence": 0.358,
+        "sources": [
+          "alice_notes.txt"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.95,
+        "sources": [
+          "alice_notes.txt",
+          "ats_export.json_ats_ats_alice",
+          "alice_resume.pdf"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.358,
+        "sources": [
+          "alice_notes.txt"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.525,
+        "sources": [
+          "alice_resume.pdf"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.85,
+        "sources": [
+          "ats_export.json_ats_ats_alice"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Google",
+        "title": "Senior Frontend Engineer",
+        "start": "2020-01",
+        "end": "2020-01",
+        "summary": "Current role from Recruiter CSV"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "possible_duplicate_of": [],
+    "overall_confidence": 0.816,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "Candidate Alice Smith",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "full_name",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "Alice Smith",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "full_name",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Alice Smith",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "full_name",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Alice Smith",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": 8.0,
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": 1.7,
+        "confidence": 0.6,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": 7.0,
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": 6.5,
+        "confidence": 0.68,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": 6.0,
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "location.city",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Mountain View",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "location.region",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "CA",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "location.country",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "US",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "alice.smith@example.com",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "alice.smith@example.com",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "alice.smith@example.com",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "alice.smith@example.com",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "+16505550100",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "+16505550100",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "+16505550100",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "+16505550100",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "python",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "python",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "django",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "react",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "react",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "react",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "go",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "javascript",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "typescript",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "Tech Lead",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "Software Engineer III",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Staff Software Engineer",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Senior Frontend Engineer",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience.start",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "2018-05",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "experience.start",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "2020-01",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience.end",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": "2020-01",
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "experience.summary",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "Extracted from recruiter notes",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience.summary",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Current role from Recruiter CSV",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "alice_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": {
+          "company": "Google",
+          "title": "Tech Lead",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "alice_resume.pdf",
+        "source_type": "resume",
+        "method": "regex_extract",
+        "value": {
+          "company": "Google",
+          "title": "Software Engineer III",
+          "start": "2018-05",
+          "end": "2020-01"
+        },
+        "confidence": 0.525,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": {
+          "company": "Google",
+          "title": "Staff Software Engineer",
+          "start": "2020-01",
+          "end": ""
+        },
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "recruiter_export.csv_row_0",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": {
+          "company": "Google",
+          "title": "Senior Frontend Engineer",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "education.field",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Computer Science",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "education.end_year",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": 2018,
+        "confidence": 0.85,
+        "note": "precision: year"
+      },
+      {
+        "field": "education",
+        "source_id": "ats_export.json_ats_ats_alice",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": {
+          "institution": "Stanford University",
+          "degree": "B.S.",
+          "field": "Computer Science",
+          "end_year": 2018
+        },
+        "confidence": 0.85,
+        "note": null
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_fba1de2564a9",
+    "full_name": "Charlie Brown",
+    "emails": [
+      "charlie.b2@example.com"
+    ],
+    "phones": [
+      "+16505559999"
+    ],
+    "location": {
+      "city": "Cupertino",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "product strategy",
+        "confidence": 0.85,
+        "sources": [
+          "ats_export.json_ats_ats_charlie2"
+        ]
+      },
+      {
+        "name": "agile",
+        "confidence": 0.85,
+        "sources": [
+          "ats_export.json_ats_ats_charlie2"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Apple",
+        "title": "Product Manager",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "possible_duplicate_of": [
+      "cand_042c7769b9db"
+    ],
+    "overall_confidence": 0.85,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Charlie Brown",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": 5.0,
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "location.city",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Cupertino",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "location.region",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "CA",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "location.country",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "US",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "charlie.b2@example.com",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "+16505559999",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "product strategy",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "agile",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": "Product Manager",
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "ats_export.json_ats_ats_charlie2",
+        "source_type": "ats_json",
+        "method": "direct_field",
+        "value": {
+          "company": "Apple",
+          "title": "Product Manager",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.85,
+        "note": null
+      },
+      {
+        "field": "possible_duplicate_of",
+        "source_id": null,
+        "source_type": "system",
+        "method": "fuzzy_name_company_match",
+        "value": [
+          "cand_042c7769b9db"
+        ],
+        "confidence": 0.4,
+        "note": "matched_via: fuzzy_name_company"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_3dd1d614b55c",
+    "full_name": "David Miller",
+    "emails": [
+      "david.miller@example.com"
+    ],
+    "phones": [
+      "+14155550199"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 10.0,
+    "skills": [
+      {
+        "name": "java",
+        "confidence": 0.358,
+        "sources": [
+          "david_miller_notes.txt"
+        ]
+      },
+      {
+        "name": "spring boot",
+        "confidence": 0.358,
+        "sources": [
+          "david_miller_notes.txt"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.358,
+        "sources": [
+          "david_miller_notes.txt"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.358,
+        "sources": [
+          "david_miller_notes.txt"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Netflix",
+        "title": "Engineering Manager",
+        "start": null,
+        "end": null,
+        "summary": "Extracted from recruiter notes"
+      }
+    ],
+    "education": [],
+    "possible_duplicate_of": [],
+    "overall_confidence": 0.358,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "David Miller",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": 10.0,
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "david.miller@example.com",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "+14155550199",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "java",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "spring boot",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "aws",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "skills",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "kubernetes",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "Engineering Manager",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience.summary",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": "Extracted from recruiter notes",
+        "confidence": 0.358,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "david_miller_notes.txt",
+        "source_type": "recruiter_notes",
+        "method": "heuristic_parse",
+        "value": {
+          "company": "Netflix",
+          "title": "Engineering Manager",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.358,
+        "note": null
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_86802235f358",
+    "full_name": "Bob Johnson",
+    "emails": [
+      "bob.johnson@example.com"
+    ],
+    "phones": [],
+    "location": null,
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 4.0,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Meta",
+        "title": "Software Engineer",
+        "start": null,
+        "end": null,
+        "summary": "Current role from Recruiter CSV"
+      }
+    ],
+    "education": [],
+    "possible_duplicate_of": [],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Bob Johnson",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": 4.0,
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "bob.johnson@example.com",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": null,
+        "confidence": 0.9,
+        "note": "normalize_failed: ambiguous_region"
+      },
+      {
+        "field": "experience.title",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Software Engineer",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience.summary",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Current role from Recruiter CSV",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "recruiter_export.csv_row_1",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": {
+          "company": "Meta",
+          "title": "Software Engineer",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.9,
+        "note": null
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_042c7769b9db",
+    "full_name": "Charlie Brown",
+    "emails": [
+      "charlie.b1@example.com"
+    ],
+    "phones": [
+      "+16505550101"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Apple",
+        "title": "Product Manager",
+        "start": null,
+        "end": null,
+        "summary": "Current role from Recruiter CSV"
+      }
+    ],
+    "education": [],
+    "possible_duplicate_of": [
+      "cand_fba1de2564a9"
+    ],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Charlie Brown",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "years_experience",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": 5.0,
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "emails",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "charlie.b1@example.com",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "phones",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "+16505550101",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience.title",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Product Manager",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience.summary",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": "Current role from Recruiter CSV",
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "experience",
+        "source_id": "recruiter_export.csv_row_2",
+        "source_type": "recruiter_csv",
+        "method": "direct_field",
+        "value": {
+          "company": "Apple",
+          "title": "Product Manager",
+          "start": null,
+          "end": null
+        },
+        "confidence": 0.9,
+        "note": null
+      },
+      {
+        "field": "possible_duplicate_of",
+        "source_id": null,
+        "source_type": "system",
+        "method": "fuzzy_name_company_match",
+        "value": [
+          "cand_fba1de2564a9"
+        ],
+        "confidence": 0.4,
+        "note": "matched_via: fuzzy_name_company"
+      }
+    ]
+  }
+]
